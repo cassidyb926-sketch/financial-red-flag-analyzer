@@ -18,7 +18,7 @@ An educational, Excel-based financial risk screening prototype comparing Target'
 6. **Governance and limitations:** Governance section discloses data-source, comparability, N/A, judgment, and AI-related caveats. Independent source verification is partial (66/198 records individually matched; 120 populated unchecked; 12 unresolved N/A). AI-use disclosure should be confirmed against course policy.
 7. **Recruiter-facing portfolio case and resume bullet:** Live webpage and resume-ready bullet in the Team section. A video is **optional** under the project instructions and is not planned.
 
-## Important remaining checks
+See [FINAL_SUBMISSION_REVIEW.md](FINAL_SUBMISSION_REVIEW.md) for the deliverable-by-deliverable rubric review and evidence gates.\n\n## Important remaining checks
 - Independently reconcile remaining financial statement source figures to original filings and document source locations; do not call the entire dataset source-verified.
 - Open the final workbook in desktop Microsoft Excel, change and restore a test input, and confirm dependent formulas and risk classifications recalculate.
 - Verify the portfolio website, workbook download, and resume bullet render correctly in a browser.
