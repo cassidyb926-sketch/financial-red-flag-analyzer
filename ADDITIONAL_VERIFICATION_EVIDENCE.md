@@ -1,0 +1,33 @@
+# Additional verification evidence — November 9, 2026
+
+## A. Financial source accuracy — independently rechecked subset
+Units: USD millions. Compared saved workbook inputs against original company 10-K financial statements.
+
+| Company | Fiscal years | Accounts checked | Result | Primary source |
+|---|---|---|---|---|
+| Target | 2023, 2024, 2025 | Net sales; cost of sales; operating income; consolidated net earnings (4 per year, 12 checks) | 12 of 12 matched | https://corporate.target.com/investors/annual/2025-annual-report/10-k-report/10-k-part-ii/item-8-financial-statements-and-supplementary-data |
+| Walmart | 2023, 2024, 2025 | Net sales; cost of sales; operating income (3 per year, 9 checks) | 9 of 9 matched | https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-25-000021/wmt-20250131.htm |
+
+Target figures checked by fiscal year 2023 / 2024 / 2025: sales 107,412 / 106,566 / 104,780; cost of sales 77,828 / 76,502 / 75,511; operating income 5,707 / 5,566 / 5,117; net earnings 4,138 / 4,091 / 3,705.
+
+Walmart figures checked by fiscal year 2023 / 2024 / 2025: net sales 605,881 / 642,637 / 674,538; cost of sales 463,721 / 490,142 / 511,753; operating income 20,428 / 27,012 / 29,348.
+
+**Scope:** 21 direct source-to-workbook matches in this supplemental check. This is **not** an independent verification of all 198 financial-data rows. The earlier source-verification register and internal reconciliation have different scopes; see FINAL_SUBMISSION_REVIEW.md. Target gross interest expense remains unresolved; its interest coverage remains N/A. Costco source figures and remaining inputs were not independently rechecked in this supplemental test.
+
+## B. Dynamic formula functionality — passed in artifact_tool calculation engine
+Workbook tested: Target_Red_Flag_Analyzer_Step47_Verification_Results.xlsx.
+
+| Step | Target FY2023 net sales input (USD millions) | FY2023 gross margin |
+|---|---:|---:|
+| Before change | 107,412 | 27.542546% |
+| Temporarily increase sales by 1,000 | 108,412 | 28.210899% |
+| Restore original input | 107,412 | 27.542546% |
+
+Method: imported workbook with artifact_tool; read Financial Data!F2 and Financial Ratios!C2; changed F2; observed the dependent ratio recalculate; restored F2; observed the ratio return to baseline. The modified workbook was **not** exported or submitted; original values remain unchanged in the supplied workbook.
+
+**Pass:** formula responds to a changed input and returns to the original result on restoration.
+
+**Limitation:** This was performed in the artifact_tool spreadsheet calculation engine, not in desktop Microsoft Excel. A final hands-on Microsoft Excel check is still advisable if the instructor will edit the file in Excel.
+
+## C. Interpretation
+The 21 matched source figures and the dynamic input-change test strengthen evidence for accounting accuracy and functionality. They do not establish that all source inputs are independently verified or that every spreadsheet formula behaves identically in desktop Excel.
