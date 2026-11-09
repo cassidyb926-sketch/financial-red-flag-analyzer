@@ -1,0 +1,44 @@
+# ACG 6805 Fall 2026 — Final Rubric and Submission Review
+
+Project: Financial Statement Red Flag Analyzer  
+Contributors: Kate La Russo and Cassidy Beale  
+Portfolio: https://cassidyb926-sketch.github.io/financial-red-flag-analyzer/
+
+This checklist is based on the supplied Fall 2026 Portfolio Project instructions. It is a readiness review, **not a prediction of the professor's grade**.
+
+## Required deliverables
+
+| # | Deliverable | Evidence / location | Status |
+|---|---|---|---|
+| 1 | Professional opportunity: problem, target user, current practice, measurable improvement | Overview; audit associates and financial analysts; manual review baseline; team-reported 20 vs. 7 minutes | Documented |
+| 2 | Theory/design matrix with five required columns | Theory section; agency theory, decision usefulness, professional skepticism | Documented |
+| 3 | Functional prototype, not slides alone | Downloadable Excel analyzer; interactive website shows saved data | Present; live recalculation still to test |
+| 4 | Solution description: inputs, assumptions, interpretation | Overview, Dashboard, Theory, Governance | Documented |
+| 5 | Testing, baseline, and revisions | Testing section: 69/69 ratio checks, 24/24 risk labels, 12/12 scenario retests, 65% team-reported time reduction; N/A safeguards | Partially independently verified; revision chronology could be strengthened |
+| 6 | Governance: data, privacy, AI, human review, limitations, prohibited uses | Governance section | Documented; student review required |
+| 7 | Recruiter-facing webpage **or** video/other presentation, plus resume bullet | GitHub Pages website; Team section resume bullet | Documented; video not required |
+
+## Grading categories (20% each)
+
+1. **Professional problem and innovation value:** Clear retail financial-statement screening use case. Consider whether the team can explain why manual ratio analysis is insufficient and what is genuinely new about the combined workflow.
+2. **Accounting theory and professional judgment:** Five-column matrix links theory to specific design features and test evidence. Risk thresholds remain judgmental.
+3. **Functionality:** Workbook and saved-data website exist. Live Microsoft Excel formula-refresh test is still outstanding. Independent source verification is incomplete.
+4. **Testing, validation, demonstrated value:** Saved arithmetic and classification retests are documented. The team reported a 20-minute manual review and a 7-minute assisted review, but timing was not independently observed. Explicit before/after revisions should be supported by actual project history.
+5. **Professional portfolio communication:** Live website, separate contributor descriptions, and a resume-ready bullet are present. Verify the link, workbook download, mobile rendering, and the team contributions for accuracy.
+
+## Remaining gates — do not mark complete without evidence
+
+- **Source tie-out:** The source-verification register has 198 records: 66 individually matched, 120 populated records not independently checked, and 12 unresolved N/A records. Confirm figures from primary reports before claiming complete verification. Document annual-report page/statement, units, fiscal period, and any derivation.
+- **Live Excel test:** Open the final `Financial_Red_Flag_Analyzer.xlsx` in desktop Microsoft Excel. Save a copy; change a selected numeric input; recalculate; confirm the dependent ratio and risk label change appropriately; restore the input and confirm values return. Record actual observed cell addresses and outcomes. A saved-cache check is not a substitute.
+- **Revision evidence:** Describe at least one genuinely documented issue found during testing, the actual change made, and a retest. Withholding Target interest coverage when unsupported is a documented safeguard, but do not claim it resulted from a test unless that sequence is evidenced.
+- **Peer comparability:** Check fiscal-year alignment, 53-week period effects, interest-coverage definitions, and Walmart redeemable noncontrolling interest presentation.
+- **AI disclosure:** Website states that AI assisted documentation, website content, and verification workflows. Confirm this accurately describes the team's work and meets any separate instructor disclosure rule.
+- **Submission method:** Confirm the professor's requested delivery format or LMS fields; the supplied instructions specify deliverables but not a unique upload format or due date.
+
+## Resume bullet (proposed)
+
+Co-developed an Excel-based financial statement red flag analyzer evaluating eight ratios for Target, Walmart, and Costco across FY2023–FY2025; implemented historical and peer-based risk screening, validated saved ratio and scenario results, and documented a team-reported 65% reduction in review time.
+
+## Interpretation safeguards
+
+This is an educational risk-screening prototype, not an audit opinion or evidence of fraud. No independently verified, generalized time-savings claim is made. The website dashboard displays saved workbook results rather than live financial data.
