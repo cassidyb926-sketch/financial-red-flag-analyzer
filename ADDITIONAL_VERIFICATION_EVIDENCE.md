@@ -31,3 +31,20 @@ Method: imported workbook with artifact_tool; read Financial Data!F2 and Financi
 
 ## C. Interpretation
 The 21 matched source figures and the dynamic input-change test strengthen evidence for accounting accuracy and functionality. They do not establish that all source inputs are independently verified or that every spreadsheet formula behaves identically in desktop Excel.
+
+
+## D. Expanded Costco independent annual-report reconciliation — November 9, 2026
+
+The Costco portion of the Step47 workbook contains **66 input rows**: **63 numeric values and three intentionally blank depreciation-expense fields** (the separate expense is not presented as its own line in Costco's consolidated income statement). The **63 numeric Costco inputs were matched to published original annual-report income statements and balance sheets for FY2023, FY2024 and FY2025**, using the same line-item definitions and USD millions. No differences found.
+
+Primary SEC documents:
+- 2025 annual report (three-year income statement; FY2025 and FY2024 balance sheets): https://www.sec.gov/Archives/edgar/data/909832/000090983225000157/costannualreport2025.pdf
+- 2024 annual report (FY2024 and FY2023 balance sheets): https://www.sec.gov/Archives/edgar/data/909832/000090983224000071/cost2024annualreport.pdf
+
+Per-year income statement lines checked: net sales, membership fees (workbook 'Other revenue'), total revenue, merchandise costs (workbook 'Cost of sales'), SG&A, operating income, interest expense, pretax income, tax provision and net income. Per-year balance sheet lines checked: cash, inventory, other current assets, total current assets, accounts payable, total current liabilities, long-term debt excluding current portion, total assets, total shareholders equity, total liabilities and receivables. **21 numeric values per year × 3 = 63 matched**.
+
+**Scope of completed checks to date:** This expands the prior independently checked subset (21 Target/Walmart values) by 63 Costco numeric values. Other Target and Walmart inputs remain to be independently checked in a comprehensive source-to-workbook audit; do not describe all 186 numeric inputs as independently verified.
+
+## E. Desktop Excel execution limitation
+
+The workbook's formula responsiveness was demonstrated with an actual input-change/revert test in the artifact_tool calculation engine (Section B), but **desktop Microsoft Excel was not available for execution**. Accordingly the project cannot claim a passed desktop Excel test. To close that final execution-environment gap, one teammate should open the workbook in Microsoft Excel, ensure Formulas → Calculation Options → Automatic, temporarily change Financial Data!F2 from 107412 to 108412, confirm Financial Ratios!C2 changes from about 27.54% to 28.21%, restore F2 to 107412, confirm the ratio returns to about 27.54%, and save. Record date, Excel version, and actual result; screenshot optional. Do not report this step as completed before it is performed.
