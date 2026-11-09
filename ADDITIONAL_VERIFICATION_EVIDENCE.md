@@ -73,3 +73,33 @@ The uploaded Step46 workbook was inspected: `Financial Data!F2` is **107412**; `
 The team confirmed: **“Ok i used the new file instead and it worked.”** This refers to the final `Target_Red_Flag_Analyzer_Step47_Verification_Results.xlsx`, rather than the earlier Step46 testing copy. The instructed test was to change `Financial Data!F2` from 107412 to 108412 and verify `Financial Ratios!C2` recalculates from about 27.54% to 28.21%.
 
 **Current status: PASS — team-reported for the Step47 workbook.** This supersedes Section G's unresolved status for Step47; Section G remains a record of the earlier Step46 issue. The assistant did not personally operate desktop Microsoft Excel; this is the team's hands-on report. Ensure the temporary input change is reverted before final submission. Source-data verification of remaining Target/Walmart inputs is a separate issue.
+
+
+## I. Completed Target and Walmart original-filing tie-out — November 9, 2026
+
+The final Step47 verification-results workbook's **132 Target/Walmart standardized input records** were compared line-by-line against original company annual-report financial statements for FY2023–FY2025, with independently transcribed filing amounts and explicit derivations for calculated fields.
+
+**Results:** **123/123 populated numeric records MATCHED**, **9/9 deliberately blank fields correctly remain blank**, **zero mismatches**.
+
+| Company | Populated records matched | Intentionally N/A | Mismatches |
+|---|---:|---:|---:|
+| Target | 60 | 6 | 0 |
+| Walmart | 63 | 3 | 0 |
+| **Total** | **123** | **9** | **0** |
+
+Original filing sources:
+- Target 2025 Form 10-K (FY2023–FY2025 income statement; FY2024–FY2025 balance sheets): https://corporate.target.com/investors/annual/2025-annual-report/10-k-report/10-k-part-ii/item-8-financial-statements-and-supplementary-data
+- Target 2024 Form 10-K (FY2023 balance sheet): https://corporate.target.com/investors/annual/2024-annual-report/10-k-report/10-k-part-ii/item-8-financial-statements-and-supplementary-data
+- Walmart 2025 Form 10-K (FY2023–FY2025 income statement; FY2024–FY2025 balance sheets): https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-25-000021/wmt-20250131.htm
+- Walmart 2024 Form 10-K (FY2023 balance sheet): https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-24-000056/wmt-20240131.htm
+
+**Important definition and derivation notes:**
+- Target 'Total revenue' is the reported net sales amount repeated as the analyzer's revenue basis, not a separately labeled total-revenue statement line.
+- Target 'Interest expense (reported basis)' corresponds to **net interest expense** (502 / 411 / 445); it is **not verified gross interest expense**, so Target interest coverage must remain **N/A**.
+- Target total liabilities were derived as total assets less shareholders' investment.
+- Walmart gross interest expense (reported basis) combines **debt interest plus finance lease interest** (2023: 1787+341=2128; 2024: 2259+424=2683; 2025: 2249+479=2728).
+- Walmart total liabilities exclude **redeemable noncontrolling interest** presented separately as mezzanine equity: total assets minus total shareholders' equity minus redeemable NCI (FY2023: 237; FY2024: 222; FY2025: 271).
+- N/A: Target separately stated other revenue and receivables (three years each); Walmart separately presented depreciation expense (three years). These are missing separate statement line items, **not zeros**.
+- All amounts in USD millions. Comparability and risk-classification limitations disclosed elsewhere remain applicable.
+
+**Status update:** The remaining Target/Walmart numeric source-verification task is complete for the final Step47 workbook. The Step47 desktop Excel input-change test is team-reported PASS (Section H). Earlier caveats about unverified Target/Walmart amounts in Sections D/H are historical and **superseded by this section**. The source tie-out does not eliminate the analyzer's judgmental/heuristic design limitations.
