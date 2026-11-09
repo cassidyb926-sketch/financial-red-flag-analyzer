@@ -26,6 +26,16 @@ This checklist is based on the supplied Fall 2026 Portfolio Project instructions
 4. **Testing, validation, demonstrated value:** Saved arithmetic and classification retests are documented. The team reported a 20-minute manual review and a 7-minute assisted review, but timing was not independently observed. Step 40 documents three Walmart total-liabilities corrections (FY2023: 159,443 to 159,206; FY2024: 162,050 to 161,828; FY2025: 163,402 to 163,131, USD millions), excluding redeemable noncontrolling interest from liabilities. The source-reconciliation worksheet reports 186 populated amounts matched or corrected, distinct from the later independent 66-record check.
 5. **Professional portfolio communication:** Live website, separate contributor descriptions, and a resume-ready bullet are present. Verify the link, workbook download, mobile rendering, and the team contributions for accuracy.
 
+## Additional automated QA (November 9, 2026)
+
+- **Workbook package:** The Step 47 verification-results XLSX archive passed its ZIP integrity check and contains 33 worksheet XML parts.
+- **Independent QA sheets:** Reopened the verification-results workbook using the spreadsheet engine. Its QA summary reports 69/69 ratio calculations, 3 expected N/A results, 12/12 scenarios, and 24/24 risk classifications; zero arithmetic/scenario/risk failures.
+- **Website script:** Node.js syntax check passed for the local website's `script.js`.
+- **Data consistency:** All 24 embedded JavaScript dashboard records exactly match `dashboard-data.json`; each fiscal year has eight ratios.
+- **Saved risk counts:** FY2023: 4 Low, 3 Moderate, 0 High, 1 N/A; FY2024: 4 Low, 3 Moderate, 0 High, 1 N/A; FY2025: 3 Low, 4 Moderate, 0 High, 1 N/A.
+
+**Scope:** These are local-file syntax, data-consistency, package-integrity, and saved-result checks. They do not prove the deployed GitHub Pages site renders in a real browser, independently authenticate all SEC source inputs, or demonstrate Microsoft Excel's live recalculation after an input edit.
+
 ## Remaining gates — do not mark complete without evidence
 
 - **Source tie-out:** The source-verification register has 198 records: 66 individually matched, 120 populated records not independently checked, and 12 unresolved N/A records. Confirm figures from primary reports before claiming complete verification. Document annual-report page/statement, units, fiscal period, and any derivation.
