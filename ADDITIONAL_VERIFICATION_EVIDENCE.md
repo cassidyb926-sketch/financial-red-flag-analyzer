@@ -66,3 +66,10 @@ This updates the status of Section E: the previously outstanding desktop Excel c
 The uploaded Step46 workbook was inspected: `Financial Data!F2` is **107412**; `Financial Ratios!C2` contains the formula `=IFERROR(('Financial Data'!F2-'Financial Data'!F5)/'Financial Data'!F2,"N/A")` and shows the saved result **0.2754254645663427** (~27.54%). The formula is linked correctly in the file, but this static inspection does **not** demonstrate that desktop Excel recalculated after an input edit. The exact edited cell, calculation mode, and Excel environment have not yet been confirmed.
 
 **Status: DESKTOP EXCEL TEST NOT PASSED / UNRESOLVED.** Do not claim the test passed until a repeat test in the actual submission workbook demonstrates the expected value change and restoration. The separately executed artifact_tool recalculation test remains valid only for that engine. Recommended diagnosis: verify the exact workbook version and cell edited, check Formulas → Calculation Options → Automatic, press Ctrl+Alt+F9 (Windows) or use Calculate Now, and verify the displayed result changes; then restore the input.
+
+
+## H. FINAL UPDATE — Step47 Microsoft Excel test passed (team-reported, November 9, 2026)
+
+The team confirmed: **“Ok i used the new file instead and it worked.”** This refers to the final `Target_Red_Flag_Analyzer_Step47_Verification_Results.xlsx`, rather than the earlier Step46 testing copy. The instructed test was to change `Financial Data!F2` from 107412 to 108412 and verify `Financial Ratios!C2` recalculates from about 27.54% to 28.21%.
+
+**Current status: PASS — team-reported for the Step47 workbook.** This supersedes Section G's unresolved status for Step47; Section G remains a record of the earlier Step46 issue. The assistant did not personally operate desktop Microsoft Excel; this is the team's hands-on report. Ensure the temporary input change is reverted before final submission. Source-data verification of remaining Target/Walmart inputs is a separate issue.
