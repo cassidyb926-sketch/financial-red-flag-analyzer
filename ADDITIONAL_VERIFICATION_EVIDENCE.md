@@ -48,3 +48,12 @@ Per-year income statement lines checked: net sales, membership fees (workbook 'O
 ## E. Desktop Excel execution limitation
 
 The workbook's formula responsiveness was demonstrated with an actual input-change/revert test in the artifact_tool calculation engine (Section B), but **desktop Microsoft Excel was not available for execution**. Accordingly the project cannot claim a passed desktop Excel test. To close that final execution-environment gap, one teammate should open the workbook in Microsoft Excel, ensure Formulas → Calculation Options → Automatic, temporarily change Financial Data!F2 from 107412 to 108412, confirm Financial Ratios!C2 changes from about 27.54% to 28.21%, restore F2 to 107412, confirm the ratio returns to about 27.54%, and save. Record date, Excel version, and actual result; screenshot optional. Do not report this step as completed before it is performed.
+
+
+## F. Microsoft Excel hands-on test — team-reported pass (November 9, 2026)
+
+A project teammate reported in this conversation: **“The test worked.”** This follows the provided desktop Microsoft Excel test instructions: temporarily change `Financial Data!F2` from 107412 to 108412, confirm that `Financial Ratios!C2` changes from approximately 27.54% to 28.21%, then restore the original input and save.
+
+**Result: PASS — reported by the project team.** This is a user-reported hands-on verification, **not an independently witnessed or executed Microsoft Excel session**. No screenshots or Excel version were provided. The result supplements the separately executed artifact_tool input-change/revert test documented in Section B. The team should retain the original values in the submitted workbook.
+
+This updates the status of Section E: the previously outstanding desktop Excel check is now **reported completed by the team**, rather than pending. The independent source verification of remaining Target and Walmart inputs is a separate outstanding scope item.
