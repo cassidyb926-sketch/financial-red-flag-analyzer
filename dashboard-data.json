@@ -1,0 +1,242 @@
+[
+  {
+    "year": 2023,
+    "ratio": "Gross Margin",
+    "target": 0.2754254645663427,
+    "walmart": 0.23463353364769649,
+    "costco": 0.1056918093475243,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2023,
+    "ratio": "Net Margin",
+    "target": 0.03852455963951886,
+    "walmart": 0.018637323170721642,
+    "costco": 0.026469227209625173,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2023,
+    "ratio": "Current Ratio",
+    "target": 0.9064442602569416,
+    "walmart": 0.8205709451398078,
+    "costco": 1.0683679242473871,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2023,
+    "ratio": "Inventory Turnover",
+    "target": 6.131810124089029,
+    "walmart": 8.201137177571251,
+    "costco": 12.303142542971237,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2023,
+    "ratio": "Debt / Equity",
+    "target": 3.121203097081596,
+    "walmart": 1.900876376053681,
+    "costco": 1.7533721765504031,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2023,
+    "ratio": "Interest Coverage",
+    "target": "N/A",
+    "walmart": 9.599624060150376,
+    "costco": 50.7125,
+    "score": "N/A",
+    "risk": "N/A",
+    "followup": "Not rated: Target gross interest expense unavailable; peer comparability unverified."
+  },
+  {
+    "year": 2023,
+    "ratio": "Return on Assets",
+    "target": 0.0761424588972408,
+    "walmart": 0.046273283653343766,
+    "costco": 0.09450285370982277,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2023,
+    "ratio": "Asset Turnover",
+    "target": 1.9764653927188083,
+    "walmart": 2.4828288499089246,
+    "costco": 3.57029137879243,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2024,
+    "ratio": "Gross Margin",
+    "target": 0.28211624720830286,
+    "walmart": 0.23729570504032604,
+    "costco": 0.10923184777165748,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2024,
+    "ratio": "Net Margin",
+    "target": 0.03838935495373759,
+    "walmart": 0.02531755874622843,
+    "costco": 0.029512268402603906,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2024,
+    "ratio": "Current Ratio",
+    "target": 0.9353334294918025,
+    "walmart": 0.8318671211383434,
+    "costco": 0.965655312429506,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2024,
+    "ratio": "Inventory Turnover",
+    "target": 6.213108097133111,
+    "walmart": 8.794308680518176,
+    "costco": 12.598900787580034,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2024,
+    "ratio": "Debt / Equity",
+    "target": 2.9389744988408566,
+    "walmart": 1.7911432334613555,
+    "costco": 1.9561849123698247,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2024,
+    "ratio": "Interest Coverage",
+    "target": "N/A",
+    "walmart": 10.067834513604174,
+    "costco": 54.94082840236686,
+    "score": "N/A",
+    "risk": "N/A",
+    "followup": "Not rated: Target gross interest expense unavailable; peer comparability unverified."
+  },
+  {
+    "year": 2024,
+    "ratio": "Return on Assets",
+    "target": 0.07232707182320441,
+    "walmart": 0.06565831846907562,
+    "costco": 0.10613362146587431,
+    "score": 1.4,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2024,
+    "ratio": "Asset Turnover",
+    "target": 1.8840397790055248,
+    "walmart": 2.593390584266217,
+    "costco": 3.596254276967405,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2025,
+    "ratio": "Gross Margin",
+    "target": 0.2793376598587517,
+    "walmart": 0.24132813866676156,
+    "costco": 0.11124366460179615,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2025,
+    "ratio": "Net Margin",
+    "target": 0.03535980148883375,
+    "walmart": 0.02988267525328447,
+    "costco": 0.030006076054417737,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2025,
+    "ratio": "Current Ratio",
+    "target": 0.9422986340084786,
+    "walmart": 0.8226828460200447,
+    "costco": 1.0342783227336423,
+    "score": 1,
+    "risk": "Low",
+    "followup": "Routine analytical review; remain alert to other risks"
+  },
+  {
+    "year": 2025,
+    "ratio": "Inventory Turnover",
+    "target": 6.030266730554224,
+    "walmart": 9.193690659049468,
+    "costco": 13.050403938742758,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2025,
+    "ratio": "Debt / Equity",
+    "target": 2.6801732137333745,
+    "walmart": 1.674495232034161,
+    "costco": 1.6436359895761898,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2025,
+    "ratio": "Interest Coverage",
+    "target": "N/A",
+    "walmart": 10.758064516129032,
+    "costco": 67.42207792207792,
+    "score": "N/A",
+    "risk": "N/A",
+    "followup": "Not rated: Target gross interest expense unavailable; peer comparability unverified."
+  },
+  {
+    "year": 2025,
+    "ratio": "Return on Assets",
+    "target": 0.0631934435736276,
+    "walmart": 0.07855080257666273,
+    "costco": 0.11024297284421153,
+    "score": 2.4000000000000004,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  },
+  {
+    "year": 2025,
+    "ratio": "Asset Turnover",
+    "target": 1.787154930538381,
+    "walmart": 2.628640237558016,
+    "costco": 3.6740216429592323,
+    "score": 1.8000000000000003,
+    "risk": "Moderate",
+    "followup": "Review changes, disclosures and management explanations"
+  }
+]
