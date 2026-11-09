@@ -1,0 +1,1 @@
+# financial-red-flag-analyzer
