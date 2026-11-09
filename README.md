@@ -1,25 +1,28 @@
-# Financial Statement Red Flag Analyzer — Portfolio Website
+# Financial Statement Red Flag Analyzer — Portfolio Project
 
-A responsive, seven-section static portfolio website designed for GitHub Pages.
+Live portfolio: https://cassidyb926-sketch.github.io/financial-red-flag-analyzer/
 
-## Files
-- `index.html`, `style.css`, `script.js`: the website.
-- `dashboard-data.json`: exported FY2023–FY2025 snapshot for reference (the JavaScript embeds the same snapshot to work when opened locally).
-- `Financial_Red_Flag_Analyzer.xlsx`: accompanying Step 47 workbook.
+An educational, Excel-based financial risk screening prototype comparing Target's eight financial ratios over FY2023–FY2025 with Walmart and Costco benchmarks. The website provides a saved-data interactive dashboard, theory/design matrix, testing and limitations disclosures, and team contributions.
 
-## Preview
-Open `index.html` in a browser. Change the fiscal year in the dashboard to see actual saved workbook values.
+## Project files
+- `index.html`, `style.css`, `script.js`: GitHub Pages portfolio website.
+- `dashboard-data.json`: exported dashboard snapshot (the website JavaScript also embeds the data).
+- `Financial_Red_Flag_Analyzer.xlsx`: accompanying Excel workbook.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository and upload all files to the repository root.
-2. Under Settings > Pages, choose Deploy from a branch, `main`, `/(root)`.
-3. Save and use the Pages URL provided by GitHub.
+## Course deliverables — current status
+1. **Professional opportunity description:** Website overview explains the screening problem, audit-oriented use, and purpose; confirm that the intended user, current manual practice, and measurable opportunity are explicit enough for the rubric.
+2. **Theory/design matrix:** Five-column matrix on the Theory section connects agency theory, decision usefulness, and professional skepticism to design and testing.
+3. **Functional prototype:** Downloadable Excel workbook plus interactive saved-data website dashboard. Live input-change recalculation in Microsoft Excel remains unverified.
+4. **Description of solution:** Overview, Dashboard, Theory, and Governance sections explain the ratios, comparisons, 60% historical/40% peer scoring, assumptions, interpretation, and limits.
+5. **Testing and validation:** Saved-result checks: 69/69 available ratio calculations, 24/24 risk classifications, and 12/12 scenarios. Team-reported manual review 20 minutes versus analyzer-assisted review 7 minutes (65% elapsed-time reduction). No independent observation of timing or comparison of error rates.
+6. **Governance and limitations:** Governance section discloses data-source, comparability, N/A, judgment, and AI-related caveats. Independent source verification is partial (66/198 records individually matched; 120 populated unchecked; 12 unresolved N/A). AI-use disclosure should be confirmed against course policy.
+7. **Recruiter-facing portfolio case and resume bullet:** Live webpage and resume-ready bullet in the Team section. A video is **optional** under the project instructions and is not planned.
 
-## Before submitting
-- Record and embed a genuine 3–5 minute demo video; the video section is a placeholder.
-- Add both contributors' names and responsibilities.
-- Complete live Excel recalculation and manual-efficiency measurements if required.
-- Verify underlying SEC figures and disclosure consistency before describing the tool as fully source-audited.
-- Disclose AI assistance per course instructions.
+## Important remaining checks
+- Independently reconcile remaining financial statement source figures to original filings and document source locations; do not call the entire dataset source-verified.
+- Open the final workbook in desktop Microsoft Excel, change and restore a test input, and confirm dependent formulas and risk classifications recalculate.
+- Verify the portfolio website, workbook download, and resume bullet render correctly in a browser.
+- Confirm whether a separate submission package or AI-assistance statement is needed under course-specific instructions.
 
-**Caveat:** The site presents saved workbook results, not live data or an audit opinion. Interest coverage for Target is N/A, peer interest coverage is provisional, and thresholds are judgment-based.
+## Interpretation
+This is a screening and educational decision-support prototype, not an audit opinion or assertion of misstatement. Target interest coverage is withheld because gross interest expense was not independently verified; peer interest coverage is provisional. Fiscal-year and retail business-model differences constrain comparability, and risk thresholds are judgmental rather than statistically validated.
