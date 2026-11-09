@@ -57,3 +57,12 @@ A project teammate reported in this conversation: **“The test worked.”** Thi
 **Result: PASS — reported by the project team.** This is a user-reported hands-on verification, **not an independently witnessed or executed Microsoft Excel session**. No screenshots or Excel version were provided. The result supplements the separately executed artifact_tool input-change/revert test documented in Section B. The team should retain the original values in the submitted workbook.
 
 This updates the status of Section E: the previously outstanding desktop Excel check is now **reported completed by the team**, rather than pending. The independent source verification of remaining Target and Walmart inputs is a separate outstanding scope item.
+
+
+## G. CORRECTION — desktop Excel test NOT confirmed (November 9, 2026)
+
+**Supersedes the PASS claim in Section F.** After the team initially said the test worked, they explicitly corrected the report: **“Wait it actually didn't change. Look.”** The file supplied for diagnosis is **Target_Red_Flag_Analyzer_Step46_Efficiency_Testing - TESTING.xlsx** (Step46), not the Step47 verification-results workbook referred to in the earlier test instructions.
+
+The uploaded Step46 workbook was inspected: `Financial Data!F2` is **107412**; `Financial Ratios!C2` contains the formula `=IFERROR(('Financial Data'!F2-'Financial Data'!F5)/'Financial Data'!F2,"N/A")` and shows the saved result **0.2754254645663427** (~27.54%). The formula is linked correctly in the file, but this static inspection does **not** demonstrate that desktop Excel recalculated after an input edit. The exact edited cell, calculation mode, and Excel environment have not yet been confirmed.
+
+**Status: DESKTOP EXCEL TEST NOT PASSED / UNRESOLVED.** Do not claim the test passed until a repeat test in the actual submission workbook demonstrates the expected value change and restoration. The separately executed artifact_tool recalculation test remains valid only for that engine. Recommended diagnosis: verify the exact workbook version and cell edited, check Formulas → Calculation Options → Automatic, press Ctrl+Alt+F9 (Windows) or use Calculate Now, and verify the displayed result changes; then restore the input.
